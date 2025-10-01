@@ -30,6 +30,8 @@ const btnenable = () => {
   });
 };
 
+
+//winnig pattern for game 
 let winPattern = [
     [0,1,2],
     [3,4,5],
@@ -42,6 +44,7 @@ let winPattern = [
 ]
 
 
+// round over each click of button.
 btn.forEach((box) => {
     box.addEventListener("click", () => {
         console.log("click");
