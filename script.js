@@ -13,15 +13,6 @@ const resetFunc = () => {
 }
 
 
-//enable buttons after click reset button:
-// const btnenable = () => {
-// btn.forEach(box => {
-//     box.disabled = false;
-//     btn.innerText = "";
-// // });
-
-// }
-
 const btnenable = () => {
   btn.forEach(box => {
     box.disabled = false;
@@ -89,6 +80,9 @@ const checkWinner= ()=> {
     }
 
 }
+
+
+// newGame and resetBtn will reset our game to intial positions.
 
 newgamebtn.addEventListener("click",()=>{
     resetFunc();
